@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="base.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/28c9489ce2.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-container">
+      <div class="navbar-logo">
+        <img src="./Amul_Logo.png" alt="Logo">
+      </div>
+      <div class="navbar-heading">
+        <h1 id="page-heading">AI Tools</h1>
+      </div>
+      <div class="hamburger-menu">&#9776;</div>
+      <div class="navbar-menu">
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#about-section">About Us</a></li>
+          <li><a href="./contact.html">Contact Us</a></li>
+          <li><a href="./Apps.html">Apps</a></li>
+          <li><a href="./AI-Tools.html">AI Tools</a></li>
+          <li><a href="https://www.amuldairy.com/plant_gcmmf.php">Plant Details</a></li>
+          <li class="dropdown">
+              <a href="#" class="dropbtn">Registration</a>
+              <div class="dropdown-content">
+                  <a href="https://digi.amuldairy.com/vendor/reg.php">Customer Registration</a>
+                  <a href="https://digi.amuldairy.com/suppreg.php">Supplier Registration</a>
+              </div>
+          </li>
+      </ul>
+      </div>
+      <div class="navbar-social">
+        <a href="https://www.facebook.com/DairyAmul"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/amul_india/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@AmulTheTasteofIndia"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://twitter.com/x/migrate?tok=eyJlIjoiL0RhaXJ5QW11bCIsInQiOjE3MTY5NjM1MzJ9aKZnfUQ0wnU4suN9ovDkEA%3D%3D"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="headd">
+    <h1>Farm to Family, the <span class="am">Amul</span> Way.</h1>
+  </div>
+
+  <div class="hero-section">
+    <video id="hero-video" autoplay loop muted playsinline>
+        <source src="./images/Amul celebrates India's 75th Republic Day.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-controls">
+        <button id="play-pause-btn">Pause</button>
+        <button id="mute-unmute-btn">Unmute</button>
+    </div>
+</div>
+
+
+  <!--2 Section-->
+
+  <div class="about-section">
+    <div class="about-inner">
+      <h1>WELCOME TO <span>AMUL</span> DAIRY !</h1>
+      <p>
+        Headquartered in Anand, the Kaira District Co-operative Milk Producers’ Union (Amul) has become a model of success studied by planners, economists, and journalists for its economic empowerment of small producers through the Anand Pattern.<br>
+        This approach has revolutionized the dairy co-operative movement, alleviating hardships for millions of farmers and positioning India as the top milk producer in the world.<br>
+        Despite this success, we remain humble, firmly believing that true progress lies in the development of our farmers.
+    </p>
+    
+    
+    </div>
+  </div>
+
+  <section class="new-section">
+    <h1>What's new?</h1>
+    <div class="carousel">
+      <button class="carousel-button prev" onclick="prevSlide()">&#10094;</button>
+      <div class="carousel-images" autoplay>
+        <img src="./images/honey_scroll_img.png" alt="Image 1" class="carousel-item">
+        <img src="./images/001.png" alt="Image 2" class="carousel-item">
+        <img src="./images/004.png" alt="Image 3" class="carousel-item">
+        <img src="./images/005.png" alt="Image 3" class="carousel-item">
+        <img src="./images/006.png" alt="Image 3" class="carousel-item">
+        <img src="./images/007.png" alt="Image 3" class="carousel-item">
+        <img src="./images/008.jpg" alt="Image 3" class="carousel-item">
+        <img src="./images/009.jpg" alt="Image 3" class="carousel-item">
+        <img src="./images/010.jpg" alt="Image 3" class="carousel-item">
+        <img src="./images/011.jpg" alt="Image 3" class="carousel-item">
+        <img src="./images/012.jpg" alt="Image 3" class="carousel-item">
+        <img src="./images/Amul_Noodles.png" alt="Image 3" class="carousel-item">
+        <img src="./images/Chips_all.png" alt="Image 3" class="carousel-item">
+        <img src="./images/common copy.png" alt="Image 3" class="carousel-item">
+        <img src="./images/energy_drink.png" alt="Image 3" class="carousel-item">
+        <img src="./images/ETHNO_VETERINARY1.png" alt="Image 3" class="carousel-item">
+        <img src="./images/honey_scroll_img.png" alt="Image 3" class="carousel-item">
+      </div>
+      <button class="carousel-button next" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </section>
+
+  <section class="events">
+    <h1>Events</h1>
+    <p>Recent News of Amul Dairy Click here...</p>
+    <div class="event-container">
+      <div class="event-card">
+        <span>2024</span>
+      </div>
+      <div class="event-card">
+        <span>2023</span>
+      </div>
+      <div class="event-card">
+        <span>2022</span>
+      </div>
+      <div class="event-card">
+        <span>2021</span>
+      </div>
+      <div class="event-card">
+        <span>2020</span>
+      </div>
+      <div class="event-card">
+        <span>2019</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-section">
+    <div class="info-card card1">
+      <div class="info-card__header">
+        <img src="./images/Parlour.jpg" alt="info-card__image" class="info-card__image">
+      </div>
+      <div class="info-card__body">
+        <h4>Open Amul Parlour</h4>
+        <p>Get more information, which helps you out open your Amul Parlour as soon as possible.</p>
+      </div>
+      <div class="info-card__footer">
+        <button class="info-card__button"><a href="https://www.amul.com/m/amul-parlour">Check Out Now</a></button>
+      </div>
+    </div>
+    <div class="info-card card2">
+      <div class="info-card__header">
+        <img src="./images/plant1.jpg" alt="info-card__image" class="info-card__image">
+      </div>
+      <div class="info-card__body">
+        <h4>Online Plant Visit Booking</h4>
+        <p>Are you also curious about how things work? Book your plant visit now!</p>
+      </div>
+      <div class="info-card__footer">
+        <button class="info-card__button"><a href="https://visit.amul.in/">Visit Now</a></button>
+      </div>
+    </div>
+    <div class="info-card card2">
+      <div class="info-card__header">
+        <img src="./images/scholarship.png" alt="info-card__image" class="info-card__image">
+      </div>
+      <div class="info-card__body">
+        <h4>Get Schoolarship</h4>
+        <p>Amul's 1992 scholarship scheme empowers farmers' children to achieve academic excellence and uplift rural education.</p>
+      </div>
+      <div class="info-card__footer">
+        <button class="info-card__button"><a href="https://www.amuldairy.com/scholarships.php">Apply Now</a></button>
+      </div>
+    </div>
+  </section>
+  
+  <section class="leadership-section">
+    <h2>Leadership</h2>
+    <div class="leadership-container">
+        <div class="leadership">
+          <img src="./images/Dr Kurien.jpg" alt="Image 1">
+            <div class="leadership-content">
+                <h3>Dr. Verghese Kurien</h3>
+                <p class="description">This is the description for the card. It provides more details about the card content.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="leadership-fade"></div>
+        </div>
+        <div class="leadership">
+          <img src="./images/sardar.jpg_large" alt="Image 1">
+            <div class="leadership-content">
+                <h3>Sardar Vallabhai Patel</h3>
+                <p class="description">This is the description for the card. It provides more details about the card content.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="leadership-fade"></div>
+        </div>
+        <div class="leadership">
+          <img src="./images/Tribhuvandas_Kishibhai_Patel.jpg" alt="Image 1">
+            <div class="leadership-content">
+                <h3>Tribhuvandas K Patel </h3>
+                <p class="description">This is the description for the card. It provides more details about the card content.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+            <div class="leadership-fade"></div>
+        </div>
+    </div>
+</section>
+
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <img src="./Amul_Logo.png" alt="Logo" class="footer-logo">
+        <p>Amul - The Taste of India</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-section">About Us</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact</h3>
+        <ul>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#support">Support</a></li>
+          <li><a href="#terms">Terms & Conditions</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Our Location</h3>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.7420839807764!2d72.9692743109909!3d22.551332333663694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e4c1fbaba8a43%3A0xf7c5e139cffffcd1!2sAmul%20Dairy%2Canand!5e0!3m2!1sen!2sin!4v1716834401069!5m2!1sen!2sin"
+            width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" width="100%" height="200" style="border:0;" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Amul. All Rights Reserved | Designed by Manav Soni</p>
+    </div>
+  </footer>
+
+
+
+  <script>
+    var pageTitle = document.title;
+
+    // Update the heading text with the page title
+    document.getElementById("page-heading").innerText = pageTitle;
+
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+      if (preloader) preloader.style.display = 'none';
+
+      const video = document.getElementById('hero-video');
+      if (video) {
+        video.volume = 0.1; // Set volume to 60%
+        console.log(`Initial video volume set to: ${video.volume}`); // Log the volume to ensure it is set
+      }
+    });
+
+    const video = document.getElementById('hero-video');
+    const playPauseBtn = document.getElementById('play-pause-btn');
+    const muteUnmuteBtn = document.getElementById('mute-unmute-btn');
+
+    // Ensure the video is loaded and can play
+    video.addEventListener('canplay', () => {
+      console.log('Video can play');
+      video.play();
+    });
+
+    playPauseBtn.addEventListener('click', () => {
+      if (video.paused) {
+        video.play();
+        playPauseBtn.textContent = 'Pause';
+      } else {
+        video.pause();
+        playPauseBtn.textContent = 'Play';
+      }
+    });
+
+    muteUnmuteBtn.addEventListener('click', () => {
+      if (video.muted) {
+        video.muted = false;
+        muteUnmuteBtn.textContent = 'Mute';
+      } else {
+        video.muted = true;
+        muteUnmuteBtn.textContent = 'Unmute';
+      }
+    });
+
+
+
+  </script>
+</body>
+
+</html>
